@@ -1,0 +1,1345 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+    <!ENTITY apos   CDATA "&#x2019;"  --     372 -->
+    <!ENTITY bdquo  CDATA "&#x201E;"  --      89 -->
+    <!ENTITY mdash  CDATA "&#x2014;"  --     241 -->
+    <!ENTITY ndash  CDATA "&#x2013;"  --       1 -->
+    <!ENTITY rdquo  CDATA "&#x201D;"  --      87 -->
+
+]>
+<TEI.2 lang=nl-1900>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ahasverus: Dramatische episode in één bedrijf</title>
+<title type=short>Ahasverus</title>
+<author key="Heijermans, Herman" ref="https://viaf.org/viaf/32107862/">Herman Heijermans (1864&ndash;1924)</author>
+<respStmt><resp lang=en>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>Project Gutenberg</publisher>
+<pubPlace>Urbana, Illinois, USA.</pubPlace>
+<idno type=OLN>#####</idno>
+<idno type=OLW>#####</idno>
+<idno type=OCLC>#####</idno>
+<idno type=LibThing>#####</idno>
+<idno type=PGclearance>20230406144936jelakowitc</idno>
+<idno type=PGDPProjectId>projectID64344a6513209</idno>
+<idno type=PGSrc>71111-Heijermans-Ahasverus</idno>
+<idno type=epub-id>urn:uuid:5b22a91f-8c6b-401e-b17d-595958274590</idno>
+<idno type=PGnum>71111</idno>
+<date>2023-07-03</date>
+<availability lang=nl>
+<p>&availability.nl;
+
+<p>Dit eBoek is geproduceerd door het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
+
+</availability>
+</publicationStmt>
+<notesStmt>
+    <note type=Credits>Geproduceerd door Jeroen Hellingman en het Online Distributed Proofreading Team op https://www.pgdp.net/ voor Project Gutenberg.</note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Ivan Jelakowitch</author>
+<title>Ahasverus: Dramatische episode in één bedrijf</title>
+<date>[1911]</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc lang=nl>
+    <p>Dit boek is weergegeven in oorspronkelijke schrijfwijze. Afgebroken woorden aan het einde van de regel zijn stilzwijgend hersteld. Kennelijke zetfouten in het origineel zijn verbeterd. Deze verbeteringen zijn aangegeven in de colofon aan het einde van dit boek.</p>
+
+    <tagsDecl lang=xx>
+        <rendition selector=.small>font-size: small;</rendition>
+        <rendition selector=.large>font-size: large;</rendition>
+        <rendition selector=.vam>vertical-align: middle;</rendition>
+        <rendition selector=.center>text-align: center;</rendition>
+    </tagsDecl>
+</encodingDesc>
+<profileDesc>
+    <langUsage lang=nl>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=fr>Frans</language>
+        <language id=xx>Geen taalkundige inhoud</language>
+    </langUsage>
+    <textClass>
+        <keywords>
+            <list>
+                <item>#####</item>
+            </list>
+        </keywords>
+    </textClass>
+</profileDesc>
+<revisionDesc>
+    <list>
+        <item>2023-06-30 Begonnen.
+    </list>
+</revisionDesc>
+</teiHeader>
+<text rend="stylesheet(style/classic.css)">
+<front id=frontmatter>
+<div1 id=cover type=Cover>
+
+
+<p><figure id=cover-image rend="image(images/frontcover.jpg)">
+<figDesc>Oorspronkelijke voorkant.</figDesc>
+</figure>
+
+
+<pb id=pb.i facs="f:001">
+<div1 id=french type=FrenchTitle>
+
+
+<p rend="center large">AHASVERUS
+
+
+
+<pb id=pb.ii facs="f:002">
+<div1 id=titlepage-series type=TitlePage>
+
+
+<p><figure id=titlepage-series-image rend="image(images/titlepage-series.png)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+<titlePage>
+<docTitle><titlePart>TOONEEL
+BIBLIOTHEEK</titlePart></docTitle>
+
+<byline><hi rend=sc>Onder leiding van L. Simons</hi></byline>
+
+
+<docImprint>UITGEGEVEN DOOR: 
+<lb>DE MAATSCHAPPIJ VOOR GOEDE EN GOEDKOOPE LECTUUR
+<lb>AMSTERDAM
+</docImprint>
+</titlePage>
+
+
+
+<pb id=pb.iii facs="f:003">
+<div1 id=titlepage type=TitlePage>
+
+
+<p><figure id=titlepage-image rend="image(images/titlepage.png)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+
+<titlePage>
+<byline>IVAN JELAKOWITCH
+<lb>(HERMAN HEIJERMANS)</byline>
+
+<docTitle>
+<titlePart>AHASVERUS</titlePart>
+
+<titlePart><hi rend=sc>Dramatische Episode in één Bedrijf</hi></titlePart>
+</docTitle>
+
+<byline><hi rend=sc>Vrij naar het Russisch door W. v. D.</hi></byline>
+
+<docImprint><hi rend=small>HET RECHT VAN VERTOONEN VOORBEHOUDEN VOLGENS DE WET OP HET AUTEURSRECHT VAN 28 JUNI 1881, STAATSBLAD No. 124.</hi></docImprint>
+</titlePage>
+
+
+
+
+<pb n=V id=pb.v facs="f:004">
+<div1 id=bijlage>
+<head>BIJLAGE.</head>
+
+
+<p>Nu de &bdquo;Dramatische Episode&rdquo; <hi rend=ex>Ahasverus</hi> in eenigszins gekuischten vorm herdrukt wordt, lijkt &apos;t voor den toekomstigen snuffelaar niet onaardig den &bdquo;onthullenden&rdquo; brief van Juni 1893 uit het dagblad &bdquo;De Telegraaf&rdquo; over te nemen.
+
+<p>Deze brief luidde:
+
+
+    <q rend=block><p rend=center>&bdquo;AHASVERUS&rdquo; en &bdquo;DORA KREMER&rdquo;.
+
+    <p rend=center>Een vertaald-Russisch
+    <lb>en een oorspronkelijk-Hollandsch stuk.
+
+    <p>Het volgend schrijven ontvang ik heden-avond:
+
+
+    <p rend=salute><hi>Geachte heer Heijermans!</hi>
+
+    <p>In het &bdquo;<foreign lang=fr>Journal des Débats</foreign>&rdquo; van Zaterdag-avond vinden wij voor Maandag 12 Juni bij het &bdquo;<foreign lang=fr>Théatre libre</foreign>&rdquo; geannonceerd: &bdquo;Ahasverus&rdquo;, van Herm. Heijermans Jr.
+
+    <p>Gij hebt bepaald bij uwe Fransche vertaling den naam van den Russischen schrijver Ivan Jelakowitch vergeten. Maak s. v. p. onmiddellijk den heer Antoine op deze vergissing attent en verzoek hem die bij de volgende annonce te herstellen. Of gij uw pseudoniem als vertaler (W. v. D.) al of niet volhoudt, is natuurlijk uw zaak.
+
+    <p>Inmiddels, Hoogachtend
+
+    <p rend=signed>Uwe dienstw. dnr.
+    <lb><hi rend=sc>Kreukniet en Poolman.</hi></q>
+
+
+<p>Het spijt me zeer, mijnheeren, maar aan dit verzoek kan ik niet voldoen. De volgende uitlegging zal u dit wel behoorlijk motiveeren. Alvorens die te geven zeg ik u mijn hartelijken dank, dat gij zonder &apos;t zelf te <pb id=pb.vi n=VI facs="f:005">willen, hebt meegewerkt aan een grappige mystificatie, aan een kleine wraakoefening, waarbij gij zeker geen nadeel ondervindt. &apos;k Was juist voornemens met het nummer van het &bdquo;<foreign lang=fr>Journal des Débats</foreign>&rdquo; bij u te komen en u de explicatie te geven, toen &apos;k uw briefje ontving en er de voorkeur aan hechtte, met bedwongen schaterpret voor mijn bureau te blijven zitten, om u eene historie te vertellen, die veel op &apos;n spookgeschiedenis lijkt.
+
+<p>Op een avond&mdash;ongeveer twee maanden geleden&mdash;kwam M. Mossel (gewezen concertmeester van het Concertgebouw), die voor een paar dagen uit Londen overwipte, me opzoeken. We flaneerden &apos;n beetje door de Kalverstraat en ontmoetten Reyding.
+
+<p>&bdquo;Ga je mee naar de American bar?&rdquo;
+
+<p>&bdquo;Merci, &apos;t is al zoo laat!&rdquo;
+
+<p>&bdquo;Kom, &apos;t is pas één uur...&rdquo;
+
+<p>Enfin, we namen &apos;m ieder onder &apos;n arm en zaten &apos;n paar minuten later voor inspireerende grocs américains.
+
+<p>Je mag zulke ondeugende dingen wel niet vertellen, maar Reyding en Mossel zullen &apos;t niet kwalijk nemen. Mossel was in een van z&apos;n leuke buien. We schaterden om z&apos;n laatsten dollen streek: misschien heb je &apos;t gehoord, hoe hij &apos;n jaar geleden in Rotterdam met &apos;n nieuwe demi-saison aan door &apos;n buis van de waterleiding, die op straat lag, kroop&mdash;en we babbelden zóó gezellig, als je &apos;t slechts bij &apos;n groc américain, &apos;s avonds na één uur, in de Bar kunt doen. Mossel vertelde van zijn succes in Engeland. Wij brachten hem op de hoogte van &apos;t beetje nieuws in Holland, en zoo hoorde hij toevallig, dat &bdquo;Dora Kremer&rdquo; &apos;t drama van ondergeteekende, over &apos;n week of drie zou worden opgevoerd.
+
+<p>&bdquo;Kèrel, waar waag-je je an? Je wordt natuurlijk verscheurd!&rdquo;
+
+<p>&bdquo;Dat weet &apos;k.&rdquo;
+
+<p>&bdquo;D&apos;r blijft geen stuk heel an! &apos;n Oorspronkelijk stuk door jóú geschreven! Neem &apos;t terug!&rdquo;
+
+<p>&bdquo;&apos;t Kan me niks schelen... Laat ze d&apos;r gang gaan.&rdquo;
+
+<p>Accepteerend het fatum, dat er niets aan heel zou worden gelaten, raakten we aan &apos;t doorslaan over kunstzaken, <pb id=pb.vii n=VII facs="f:006">tot één van ons&mdash;wie, weet &apos;k niet meer&mdash;plotseling &apos;n inval had en &apos;t denkbeeld aangaf eens &apos;n stuk te schrijven en &apos;t als eene <hi rend=ex>vertaling</hi> te doen doorgaan.
+
+<p>Er gingen <corr sic=verscheiden>verscheidene</corr> weken voorbij. Mossel zag ik en Reyding sprak ik niet meer. &apos;k Had zelf &apos;t geheele plannetje vergeten, zooals &apos;t meer gaat bij goede voornemens van den laten avond, toen &apos;k een week vóór de opvoering van &bdquo;Dora Kremer&rdquo; er weder aan herinnerd werd. Toen heb &apos;k me neergezet, en heb &bdquo;Ahasverus&rdquo; <hi rend=ex>gewrocht</hi>. Aan het &bdquo;Salon des Variétés<corr>&rdquo;</corr> bood<corr sic="&rdquo;"></corr> &apos;k &apos;t aan als een vertaling van Ivan Jelakowitch en verzocht mijn vertalers-pseudo geheim te houden.
+
+<p>&apos;t Stuk werd aangenomen.
+
+<p>Eén dag vóór de middag-voorstelling op 18 Mei, verscheen er in &apos;t &bdquo;Handelsblad&rdquo; en in &apos;t &bdquo;Nieuws van den Dag&rdquo; een entrefilet, later door alle bladen, zelfs door z.g. literarische, overgenomen, een entrefilet van den volgenden inhoud:
+
+
+    <q rend=block><p rend="center large">JELAKOWITCH.
+
+    <p>&bdquo;Omtrent dezen hier te lande vrij onbekenden Russischen schrijver, wiens &bdquo;Ahasverus&rdquo; aanst. Donderdag in den &bdquo;Salon des Variétés&rdquo; wordt opgevoerd, zendt een onzer lezers ons de volgende bijzonderheden, aan een Engelsch letterkundig tijdschrift ontleend:
+
+    <p>Ivan Jelakowitch werd geboren te Nizhni-Novgorod den 3<hi rend=sup>den</hi> December 1864. Zijn vader, een Israëliet, was een welgesteld koopman, die zijn zoon aan de universiteit te Kasan liet studeeren, waar Ivan zeer veel te lijden had van de onverdraagzaamheid zijner medestudenten. Hij legde zich eerst in hoofdzaak toe op Oostersche talen, daarna op de rechten, doch voleindigde zijne studiën niet, daar hij de universiteit moest verlaten toen zijn vader stierf en de overheid beslag op diens vermogen legde. Sedert 1887 verschenen verschillende werken van Jelakowitch, (o. m. &bdquo;Batushka&rdquo;), die de aandacht trokken.
+
+    <p>&bdquo;De roman &bdquo;<foreign lang=en>Zemstvo of Novgorod</foreign>&rdquo;, een vlijmende <pb id=pb.viii n=VIII facs="f:007">satire op de godsdienstvervolging in Rusland, was oorzaak, dat hij in 1891 van zijn bed werd gelicht en na drie maanden in een der ellendigste gevangenissen te hebben gezucht, over de grenzen werd gezet. Uit Kopenhagen hielpen eenige vrienden den jongen man, die in den kerker eene sleepende ziekte had opgedaan, naar Londen, waar hij nu ongeveer een jaar geleden in de grootste armoede en ellende stierf.
+
+    <p>De &bdquo;<foreign lang=en>Zemstvo of Novgorod</foreign>&rdquo; doet soms aan Tolstoï denken, het is een krachtig geschreven, vurig pleidooi voor godsdienstvrijheid.&rdquo;</q>
+
+
+<p>Dit bericht werd door mijn vriend K. W. van Rijnswaerde aan de dagbladen ingezonden. &apos;t Eenige juiste van &apos;t roerend levensverhaal is de geboortedag 3 Dec. 1864 van den schrijver. De rest is zóó gefantaseerd, dat men zich verwondert, dat iedereen dien onzin geslikt heeft. Vergelijkt men de geschiedenis van Jelakowitch, <hi rend=ex>die nooit geleefd heeft</hi>, met die van Tolstoï, dan zal men tot zekere verrassende gelijkenis komen. En dan een overheid, die zoo maar beslag legt! En eene recapitulatie van werken, die nooit geschreven werden! En een roman de &bdquo;<foreign lang=en>Zemstvo of Novgorod</foreign>&rdquo;, nog wel een vlijmende satire, terwijl Mackenzie Wallace in zijn werk &bdquo;<foreign lang=en>Russia</foreign>&rdquo; de volgende verklaring geeft van wat Zemstvo beteekent:
+
+
+    <q rend=block><p>&bdquo;<foreign lang=en>The Zemstvo is a kind of local administration which supplements the action of the rural communes, and takes cognisance of those higher public wants which individual communes cannot possibly satisfy. Its principal duties are to keep the roads and bridges in proper repair, to provide means of conveyance for the rural police and other officials, to elect the justices of peace, to look after primary education and sanitary affairs, to watch the state of the crops and take measures against approaching famine, and in short to undertake, within certain clearly-defined limits, whatever seems likely to increase the material and moral well-being of the population.</foreign>&rdquo;</q>
+
+
+<p>Na &apos;t verschijnen van &apos;t levensbericht van Ivan Jelakowitch <pb id=pb.ix n=IX facs="f:008">onderzocht geen der critici verder. Sommige bladen deden voorkomen, of ze de ontdekking in het &bdquo;Engelsch letterkundig tijdschrift&rdquo; zelfstandig hadden gedaan. Ivan Jelakowitch had geleefd. Hij was dood. <hi rend=ex>De mortuis nil nisi bene!</hi>... Men maakte zich op in gewijde stemming om de première bij te wonen, die geheel zonder mijn toedoen, nog een mystisch waasje kreeg door &apos;t geheimzinnige eener middag-voorstelling.
+
+<p>En terwijl de lichten gedoofd werden en een plechtige stilte in de zaal heerschte, zat daar oòk glimlachend, de geest van Ivan Jelakowitch op een der banken stalles, de geest... die zich eenigszins bitter afvroeg, of dat élite-gezelschap oók zou opgekomen zijn, als het programma vermeld had... &bdquo;Ahasverus&rdquo;, oorspronkelijk drama van den schrijver van &bdquo;Dora Kremer&rdquo;...
+
+<p>Terwijl men op 29 April in de Amsterdamsche bladen den schrijver van &bdquo;Dora Kremer&rdquo; een dier &bdquo;peuterende auteurtjes&rdquo; noemde, terwijl elders een criticus de &bdquo;onaangename driestheid waarmede het geheel was bewerkt&rdquo; constateerde, terwijl bijna alle verslaggevers meer aan den persoon van den schrijver dan aan &apos;t stuk dachten bij hun weldoordachte, onpartijdige, eerlijke, intelligente &bdquo;kritieken&rdquo;,&mdash;gebeurde op 18 Mei, dus geen drie weken later, het &bdquo;wonderbaarlijke&rdquo;, kon men, o. m., over denzelfden schrijver lezen:
+
+
+    <q rend=block><p>&bdquo;Nog eens moeten wij terugkomen op het eenig tafreel van Russische verdrukking, onmenschelijkheid en barbaarschheid, dat met aangrijpende en ijzingwekkende waarheid in den <hi rend=ex>Salon</hi> ten tooneele gevoerd wordt.
+
+    <p>Ziedaar nu voldaan aan den eisch der handelaars in &bdquo;<foreign lang=fr>haute nouveauté</foreign>&rdquo; in zake letterkundige kunst, die beweren, geen intrige noodig te hebben voor een drama, geen onderwerp voor een roman, geen gedachte voor een gedicht.
+
+    <p>Hier is geen intrige, maar toch wordt er een vreeselijk drama voor ons afgespeeld. Een hongerige romanschrijver had er een roman van drie deelen van gemaakt. Maar we hebben hier te doen met eene zielsuiting van een <pb id=pb.x n=X facs="f:009">gemartelde, met de belichaming der gedachte van een kunstenaar, die een enkelen kreet van smart laat hooren, die ten hemel schreit. De dichter heeft inderdaad iets, wat hem op het hart ligt, wat hij zeggen <hi rend=ex>moet</hi>.
+
+    <p>De groote toewijding der artisten en de afspiegeling van den waren toestand zijn oorzaak van een succès, gelijk we er voor een <hi rend=ex>ernstig</hi> stuk in vele jaren geen hebben beleefd.&rdquo;
+
+        <p rend=signed>(De Portefeuille, 3 Juni).</q>
+
+
+<p>De heer J. H. Rössing, een der meest welwillende beoordeelaars van &bdquo;Dora Kremer&rdquo;, een dier critici, die bij de voorstelling daarvan te Amsterdam tot zelfs &bdquo;een vrijwillige claque&rdquo; opmerkte, is over &bdquo;Ahasverus&rdquo; in extase. Eerst deelde hij den geheelen inhoud in &bdquo;Het Nieuws van den Dag&rdquo; mede&mdash;iets, dat bij Z.Ed. altijd een kenmerk van groot enthusiasme is&mdash;, daarna, dat &bdquo;het geheel grooten indruk maakte&rdquo; en ten slotte kwam zelfs een derde artikel met zinnen als deze:
+
+<p>&bdquo;Dáárom is dit treurspel zoo treffend, omdat uit het geheel een ziel spreekt, omdat het geschreven is met tranen....
+
+<p>&bdquo;Ahasverus&rdquo; heeft op mij bij de lezing grooter indruk gemaakt dan bij de vertooning, hoe prijzenswaardig ook. Ik heb er het volle besef van gehouden, dat hier een hart zich lucht gaf, dat wreed gefolterd was, dat hier iemand sprak, die wat te zeggen had en niet schreef tijdverdrijf-literatuur, maar die gedreven werd om te getuigen van de ellende van het in Rusland bij velen ten onrechte zoo verachte volk van Israël!&rdquo;...
+
+<p>Het &bdquo;Handelsblad&rdquo; schreef:
+
+
+    <q rend=block><p>&bdquo;Niettemin achten wij &bdquo;Ahasverus&rdquo; een der beste en meest aangrijpende drama&apos;s die wij in langen tijd hier zagen opvoeren, de vreemde voorstellingen niet uitgezonderd. Realistisch is het zeker, maar van een realisme dat zich uit in reine, onopgesmukte waarheid, zonder de minste ruwheid of zonder iets van het gruwelijke, dat wij b. v. in &bdquo;De Macht der Duisternis&rdquo; te zien krijgen. <pb id=pb.XI n=xi facs="f:010">Zoo roerend-eenvoudig is dit drama als de eenvoudigste novelle....
+
+    <milestone unit=tb rend=dots>
+
+    <p>&bdquo;Evenwel, ofschoon ook het sombere, neerdrukkende van dit drama ons doet gelooven, dat Ivan Jelakowitch zich niet aan den invloed van Tolstoï heeft kunnen onttrekken, zoo herinnert alleen het uiterlijk aan het bekende naturalistische drama. De gedachte en de opvatting zijn niet afgekeken, maar diep gevoeld. Jelakowitch&mdash;men zal zich de treffende bijzonderheden herinneren die een onzer lezers dezer dagen omtrent zijn eigen lijden mededeelde&mdash;heeft zich hevig aangegrepen gevoeld door den aanblik der ellende, waaraan de Russische Israëlieten blootstaan, en zoo kon het niet anders, of dit drama, waarin de bezieling van zijn gewaarwording met meesterschap was geuit, moest grooten indruk maken&rdquo;...</q>
+
+
+<p>Verder nog ging &bdquo;De Tribune&rdquo;:
+
+
+    <q rend=block><p>&bdquo;Natuurlijk is deze schets onvolledig, natuurlijk kunnen wij hier niet weêrgeven de ruwe kracht, het diepe gevoel, die uit elke lijn van dit kunstwerk spreken.
+
+    <p>&bdquo;Waarlijk, ook wie niet de geschiedenis van <sic corr=Jelakowitch>Jelakowitsch</sic> kent, moet gevoelen: dit stuk is niet geschreven: het is geleefd. Daar zijn tranen gevallen op die bladzijden, daar is smart, daar is hartstocht, daar is woede in die regels&rdquo;...</q>
+
+
+<p>Een ander provincieblad sprak er van als van &bdquo;een kunstwerk, dat gewaardeerd en genoten zal worden&rdquo;. De &bdquo;Leeuwarder Courant&rdquo; eindigde met:
+
+
+    <q rend=block><p>&bdquo;... Alleen heeft het mij en moet het ieder hinderen, dat op dit drama een zotte klucht volgt als <hi rend=ex>De Tante van Charlie</hi>. Dwazer samenvoeging is niet denkbaar. Op dit stuk kan alleen een &bdquo;Uriel Acosta&rdquo; volgen om eenigszins in den toon te blijven. Als de schrijver van dit roerende drama het uitbundig gelach om het nastukje had gehoord, zou hij stellig gezucht hebben: <hi rend=ex lang=fr>Voilà une soirée de perdu!</hi>...&rdquo;</q>
+
+
+<pb id=pb.xii n=XII facs="f:011"><p>Waarom geef ik die extracten? Die vraag kan <corr sic=beantwoerd>beantwoord</corr> worden met eenige tegenvragen: Zou men van &apos;t Russisch drama notitie genomen hebben, als &apos;t geannonceerd was als &bdquo;Ahasverus, door H. H. Jr.&rdquo;? Zou men niet geheel <hi rend=ex>vooringenomen</hi> de voorstelling gevolgd hebben, als men geweten had, dat een jong <hi rend=ex>Hollander</hi> &apos;t geschreven had? Zou men niet gedoceerd hebben over &apos;t gebrekkige der lokale kleur, over de mogelijke onjuistheid der Russische toestanden? Zou men niet schoolmeesterig over &apos;t geheele stuk gevallen zijn? Nu stond men tegenover Jelakowitch&mdash;let wel op den <hi rend=ex>mooi-klinkenden naam</hi>!&mdash;: nu had men te beoordeelen een Rus wiens geheimzinnigheid biologeerend werkte.
+
+<p>Deze mystificatie was noodig, omdat er <hi rend=ex lang=en>something rotten is in the state</hi> der Hollandsche dagbladkritiek.
+
+<p>Men zal me genoeg gezond verstand toedichten, om te willen begrijpen, dat het succes van &bdquo;Ahasverus&rdquo; niet op &bdquo;Dora Kremer&rdquo; terugwerkt. Maar is het denkbeeld zoo onmogelijk, dat er tusschen de overdreven loftuitingen aan &apos;t adres van den <hi rend=ex>Rus</hi> en de alles afbrekende beoordeelingen over den <hi rend=ex>Hollander</hi> een middenweg is?
+
+<p>Moet ik er nadruk op leggen, dat de mystificatie alleen voor de pers berekend was en dat mijn bedoeling geen kwetsende is? Men behoeft er geen &bdquo;verbannen&rdquo; Rus voor te zijn, om met ellendige, walgelijke godsdienstvervolgingen mee te voelen! &bdquo;Ahasverus&rdquo; is een episode, een greep uit het leven, een dramatisch tafreel, zonder meer.
+
+<p>Ten slotte mijn excuus aan de lezers, dat ik hen zoolang met mezelf heb bezig gehouden, &apos;k Moest &apos;t doen om deze vivisectie der kunstbeoordeelingen te motiveeren...
+
+<p>Men heeft &apos;t in de laatste weken zoo druk over mijn <hi rend=ex>ziel</hi>, mijn <hi rend=ex>tranen</hi>, mijn <hi rend=ex>gemarteld hart</hi> gehad, dat men me &apos;t vroolijke dezer artikelen wel zal willen vergeven.
+
+
+<p rend=dateline>6 Juni, 1893.             <hi rend=sc>Herm. Heijermans Jr.</hi>
+
+
+
+<pb id=pb.xiii n=XIII facs="f:012">
+<div1 id=noot>
+
+
+<p><hi>Noot.</hi> Van de avondbladen is o. m. het &bdquo;Handelsblad&rdquo; &apos;n beetje boos. Het schrijft:
+
+
+    <q rend=block><p>&bdquo;De vraag is nu, wat is in deze waarheid? Want een vriend van den heer Heijermans, de heer F. H. J. Mijnssen, die onder het pseudoniem K. W. van Rijnswaerde schrijft, heeft ons <hi rend=ex>zwart</hi> op <hi rend=ex>wit</hi> verklaard, dat Ivan Jelakowitch de schrijver was, en wij hebben hem geloofd.
+
+    <p>Jammer, dat de Rus zelf nu dood gemaakt is en geen familie heeft achtergelaten; anders zou men die kunnen raadplegen. Nu zal het geheim van het vaderschap wel nooit worden opgehelderd, tenzij de heer Mijnssen nog een uitweg weet te vinden, maar dan is het de vraag, of men hem wel weer zal gelooven?
+
+    <p>De heeren hebben zich vastgejokt... hoe komen ze er nu weer uit?&rdquo;...</q>
+
+
+<p>Raadgeving: Doet als voorzichtige menschen. O &bdquo;Handelsblad&rdquo;!... en informeert bij den Burgerlijken Stand te Nizhni-Novgorod.
+
+<milestone unit=tb rend=asterism>
+
+<p>Na het verschijnen van dit artikel kwam een storm los. Velen van degeen, die den Russischen auteur bewierookt hadden, haastten zich den Hollander met &apos;n uitgezochte hoeveelheid hatelijkheden, die &apos;k onvermeld laat, af te maken. Geen stuk bleef &apos;r aan den echten schrijver van &bdquo;Ahasverus&rdquo; heel. Talent werd hem opnieuw met verbittering ontzegd...
+
+<p>&apos;t Blad &bdquo;Gelria&rdquo; van den 9den Juni 1893 geeft de stemming allerjuist weer:
+
+
+    <q rend=block><p>&bdquo;Een kostelijke grap is die van Herman Heijermans Jr., die een drama schreef: &bdquo;Ahasverus&rdquo; en het liet doorgaan voor het werk van een gefingeerden Russischen schrijver Iwan Jelakowitch. Kostelijk hierom, dat er weer een aantal critici, zelfs van de grootste bladen zijn ingeloopen. &bdquo;Handelsblad&rdquo; en &bdquo;Nieuws van den Dag&rdquo; namen een roerend levensbericht van Jelakowitch op, de stemming was gemaakt <pb id=pb.xiv n=XIV facs="f:013">en Rössing schreef o. a. dat het werk &bdquo;geschreven is met tranen&rdquo;, de &bdquo;Tribune&rdquo;: &bdquo;daar zijn tranen gevallen op die bladzijden, daar is smart, daar is hartstocht, daar is woede ìn die regels...&rdquo; Bovenal echter vermakelijk is de grap, omdat de heeren critici nu zoo boos zijn. De &bdquo;Amsterdammer&rdquo; heeft er een heel feuilleton voor over, om te betoogen dat haar critici ook trots de mystificatie een juist oordeel over het stuk hebben geveld, en daarna Heijermans eens duchtig in de luren te leggen. Het &bdquo;Handelsblad&rdquo; tracht zich een schijntje van gelijk aan te praten; maar het grappigst is J. H. Rössing in het &bdquo;Nieuws&rdquo;, die het wil laten voorkomen, alsof hij zelf reeds vóor Heijermans den sluier van het geheim oplichtte, het had doorgrond. Bij het lezen van al die kinderachtigheden, die halve zelfverdedigingen, komt de gedachte op, hoe klein dat Amsterdamsche bentje toch eigenlijk is. En zoo Heijermans in éen ding gelijk heeft, dan is het in zijn onderstelling, dat met zijn eigen naam geteekend, en niet mystiek voorbereid, &bdquo;Ahasverus&rdquo; veel minder gunstig zou zijn beoordeeld. In plaats van dit te erkennen, nog boos worden op den koop toe&mdash;wat zijn die menschen klein!&rdquo;</q>
+
+
+<milestone unit=tb rend=asterism>
+
+<p>Tot zoover de mystificatie. Den 12den Juni 1893 ging &bdquo;Ahasverus&rdquo; bij Antoine. Het was de eerste première van &apos;n Nederlandsch stuk in Parijs. De rolverdeeling was deze:
+
+
+<table lang=fr>
+<row><cell><hi rend=sc>Karalyk</hi>                      <cell><seg id=m>M.</seg> Antoine.
+<row><cell><hi rend=sc>Piotr, le fils</hi>               <cell><seg copyOf=m>,,</seg> Depas.
+<row><cell><hi rend=sc>Le Pope</hi>                      <cell><seg copyOf=m>,,</seg> Gémier.
+<row><cell><hi rend=sc>Un Paysan</hi>                    <cell><seg copyOf=m>,,</seg> Michelez.
+<row><cell><hi rend=sc>Le Chef des Cosaques</hi>         <cell><seg copyOf=m>,,</seg> Arquillière.
+<row><cell><hi rend=sc>La Mère</hi>                      <cell><seg id=mme>Mme.</seg> Barny.
+<row><cell><hi rend=sc>La Grand&apos;mère.</hi>          <cell><seg copyOf=mme>,,</seg> Reynold.
+<row><cell><hi rend=sc>Kasja, servante.</hi>             <cell><seg copyOf=mme>,,</seg> Vinet.
+</table>
+
+
+<pb id=pb.xv n=XV facs="f:014"><milestone unit=tb rend=asterism>
+
+<p>Meer over &bdquo;Ahasverus&rdquo; heb &apos;k niet te vertellen. &apos;k Geef &apos;t stuk in z&apos;n geretoucheerd-primitieven vorm. Als &apos;k &apos;r aan terug denk, denk &apos;k aan &apos;n aardig brok souvenir&mdash;en aan den nog niet geëindigden &bdquo;strijd&rdquo; met de &bdquo;critici&rdquo;, waarvan &apos;t gros niets geleerd heeft, niets leeren zal.
+
+<p>Je zou &apos;t nog wel &apos;ns over willen doen, als&mdash;&apos;t voor jezelf niet zoo compromitant was.
+
+
+<p rend=signed><hi rend=sc>Herman Heijermans.</hi>
+
+<p rend=dateline>Berlijn, December 1911.
+
+
+
+
+
+<pb id=pb.xvi n=XVI facs="f:015">
+<div1 id=persona>
+<head>PERSONEN:</head>
+
+
+<p><table>
+<column><column><column rend="align(right)">
+<row><cell cols=2><hi rend=sc id=karalyk>Karalyk</hi>                                         <cell>de Hr. Henri Poolman.
+<row><cell cols=2><hi rend=sc id=moeder>De Moeder</hi>                                        <cell>Mevr. Poolman-Huysers.
+<row><cell cols=2><hi rend=sc id=petrushka><corr sic=Petruska>Petrushka</corr></hi>, hun zoon <cell>de Hr. L. M. Smit.
+<row><cell cols=2><hi rend=sc id=grootmoeder>De Grootmoeder</hi>                              <cell><seg id=mej>Mej.</seg> Julia Ude.
+<row><cell cols=2><hi rend=sc id=kasja>Kasja</hi>, de meid                                    <cell><seg copyOf=mej>,,</seg> Verschuur.
+<row><cell cols=2><hi rend=sc id=petroff>Petroff</hi>, een boer                               <cell>de Hr. Grootveld.
+<row><cell cols=2><hi rend=sc id=batushka>Batushka</hi>                                       <cell>de Hr. Henri van Kuyk.
+<row><cell cols=2><hi rend=sc id=hoofdman>Een Hoofdman</hi>                                   <cell>de Hr. Onsman.
+<row><cell rows=2 rend="vertical-align(middle)"><hi rend=sc id=kozakken>2 Kozakken</hi>       <cell rows=2>{<cell>de Hr. Musch.
+<row>                                                                                                       <cell>de Hr. Koorbergen.
+</table>
+
+
+<p>De handeling heeft plaats in een klein gehucht van <corr sic="Nizhni Novgorod">Nizhni-Novgorod</corr>, omstreeks 1890.
+
+
+
+
+
+<pb id=pb1 n=1 facs="f:016">
+</front>
+<body>
+<div1 id=ahasverus>
+<head>AHASVERUS.</head>
+
+
+<p>Een smerige boerenkamer. In den achtergrond een deur en twee kleine vierkante ramen, <hi rend=ex>waarvan alle ruiten gebroken zijn</hi>. Deze geven uitzicht op den landweg, zwaar besneeuwd. Een felle wind jaagt sneeuw door de openingen. <hi rend=ex>Avondschemering.</hi> Tegen den linkerwand een reusachtige oven, uit steen gemetseld, met grauwe kalk bepleisterd. Van het bovengedeelte van dezen oven loopt een breede plank (palati) naar den rechterwand. Rechts, voorgrond, een ruwe bank. Daarvoor een zware withouten tafel, waarop een Samovar. Verspreid er om heen houten stoelen. Deuren <hi rend=ex>rechts en links</hi>, op het <hi rend=ex>eerste</hi> plan.
+
+
+
+<div2 type=Scene id=t1>
+<head>EERSTE TOONEEL.</head>
+
+<p>Op de bank zit Karalyk, de armen onder het hoofd. Over hem, aan de andere zijde der tafel: Petroff. De moeder, links op den voorgrond. Boven op den oven hurkt de grootmoeder. Type Karalyk: sterk joodsch; gebogen neus; gegroefd, bruin gezicht. Haar lang, bedekt door muts. Baard lang, slordig, bijna grijs.
+
+<p>Type Moeder: mager; zwart haar; doek om &apos;t hoofd.
+
+<p>Type Grootmoeder: haar spierwit; doek om &apos;t hoofd; starende wezenlooze oogen. Voorkomen: dierlijk vervuild.
+
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>norsch</hi>). Kasja! Kasja!
+</sp>
+
+<sp who=kasja>
+<speaker>Kasja</speaker> <p>(<hi>sloft langzaam binnen door de deur</hi>, rechts, <hi>zet een glas met olie gevuld, waarin een brandend pitje, op den hoek van den oven</hi>).
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>tot de meid</hi>). Doe de ramen dicht! (<hi>De meid gaat heen door de achterdeur. Men ziet haar vervelooze planken aan de buitenzijde voor de ramen plaatsen</hi>).
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Is &apos;t al zóó laat?
+</sp>
+
+<pb id=pb2 n=2 facs="f:017"><sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Sabbath begint...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>&apos;k Ben ongerust... ongerust.
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff.</speaker> <p>De Kozakken zijn er toch!...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>dof</hi>). Ze zijn wèl laat gekomen (<hi>stilte</hi>). &apos;k Ben ongerust, ongerust...
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff.</speaker> <p>Wat dan? Wat dan?
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Gister is-ie weggegaan... Hoor wel, gister!
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff.</speaker> <p>Petrushka, je zoon?...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>knikt</hi>).
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>plotseling heftig de vuist ballend</hi>). De moordenaars! De beulen!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Stil! De meid! (<hi>Deze komt weer door achterdeur binnen, maakt de planken aan de binnenzij vast. Terwijl zij daarmee bezig is, wordt er niet gesproken</hi>).
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>tot de meid</hi>) Neem mee! (<hi>wijst op den samovar</hi>). En help dekken. (<hi>Af met de meid door rechterdeur</hi>).
+</sp>
+
+
+
+<div2 id=t2>
+<head>TWEEDE TOONEEL.</head>
+
+<p><hi rend=sc>Karalyk, Petroff.</hi>
+
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>As-ie maar terug was! Gister weggegaan... (<hi>uitbarstend</hi>). Ze hebben &apos;m vermoord zoo as ze &apos;t vader hebben gedaan! (<hi>op de tafel slaand</hi>)... As dàt zoo is... (<hi>houdt zich in, laat &apos;t hoofd suf op de handen zakken</hi>)... As... As... Ja, wat dan? Wat dan? &apos;k Weet &apos;t niet... &apos;k Heb geen hersens meer...
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff.</speaker> <p>Niewaar! Niewaar!... Nièmand, geen sterveling heeft &apos;m in &apos;t dorp gezien... Niemand!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>(<hi>Voor zich heen pratend in wanhopige berusting</hi>). Jij, Petroff ben geen hònd as de anderen. Jij niet. Met jóú kan &apos;k praten. Jij ben rechtschaffen! &apos;t Paard hebben ze gestolen&mdash;m&apos;n hebben en houen geplunderd, terwijl wij in de kelder doodsangsten uitstonden... Niks! Allemaal niks. Maar me jongen, me éénige zoon... As ze diè hebben, hebben... dan neem &apos;k geen hap meer&mdash;dan ben &apos;k in staat &apos;r &apos;n end an <pb id=pb3 n=3 facs="f:018">te maken... O, o, &apos;k heb &apos;n gevoel, &apos;n voorgevoel of &apos;r iets&mdash;iets ongehoords is gebeurd...
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff.</speaker> <p>De kozakken zijn &apos;r nou toch...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>bitter</hi>). Ja, ja&mdash;die zijn voor drie jaar ook gekomen&mdash;bijtijds&mdash;wel bijtijds&mdash;toen ze (<hi>de grootmoeder bedoelend</hi>) háár man, mijn vader, z&apos;n tong hadden afgeknepen, z&apos;n oogen met roestige spijkers... de duivels... En omdat ze te laat waren, hebben ze &apos;n handje meegeplunderd...
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff.</speaker> <p>(<hi>Ook de grootmoeder bedoelend en op z&apos;n voorhoofd tikkend</hi>). Nog altijd?...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Ja&mdash;ja.
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff.</speaker> <p>&apos;t Is hier vervloekt koud...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Wij hebben de ruiten nìet stuk gesmeten...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>begint te dekken. De meid draagt twee flesschen met brandende kaarsen. Op de tafel &apos;n gekleurd kleed, borden, glazen, brood, zout, &apos;n aangebroken wijnflesch</hi>) ... Denk an de Sabbath, Karalyk.
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>zonder te bewegen</hi>). Ja, ja&mdash;&apos;k ga me wasschen...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>op de tafel steunend</hi>). Mot &apos;k voor drie of voor&mdash;vier dekken? (<hi>Een stilte</hi>) ... Drie of vier?
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Wat bedoel je?
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>... Voor drie of vier?
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>stug</hi>). Voor vier natuurlijk.
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Jawel! Jawel, &apos;k zie &apos;m kommen...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Wat wil je, wat zanik je?...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>As-ie door de zijdeur wegsluipt, de lafbek, z&apos;n ouwers an d&apos;r lot overlaat, komt-ie door de voordeur terug, om z&apos;n vreten te halen, jawel! Zoo as ze met steenen de ruiten insmeten, zóo as ze schreeuwden: &bdquo;haalt ze d&apos;r uit, de joden, de smausen!&rdquo;, dacht-ie an z&apos;n eigen lijf&mdash;was-ie vort! De ouwe vrouw had meer lef, godbeter...
+</sp>
+
+<sp who=karalyk>
+<speaker><corr sic=Karalijk>Karalyk</corr></speaker> <p>(<hi>de tafel bedreunend</hi>). ... Ben je klaar! Weet jij of je over &apos;n levende of over &apos;n dooie zwetst!...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>... Over &apos;n levende&mdash;dat voel &apos;k...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Dat voelt niemand... Beschrie &apos;m niet... (<hi>Stilte&mdash;de vrouwen dekken</hi>).
+</sp>
+
+<pb id=pb4 n=4 facs="f:019"><sp who=grootmoeder>
+<speaker>Grootmoeder</speaker> <p>(<hi>verward</hi>). Wind, hè? Wat &apos;n wind&mdash;wind, hè? (<hi>tot het olielicht</hi>). Licht <hi rend=ex>van mijn</hi>, hè?... Mooi lichie van mijn, hè?
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>tot de meid</hi>). Schei uit met je gelach! (<hi>De meid lachend af. Weer &apos;n stilte. Buiten hoort men den wind loeien</hi>).
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff</speaker> <p>(<hi>opstaand</hi>). Ik ga weg.
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Met God!
+</sp>
+
+<sp who=petroff>
+<speaker>Petroff.</speaker> <p>Tot morgen! (<hi>de achterdeur openend</hi>). ... Jezus, wat &apos;n sneeuwstorm! (<hi>knoopt zijn jas dicht</hi>). Tot morgen!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Tot morgen!
+</sp>
+
+
+
+<div2 id=t3>
+<head>DERDE TOONEEL.</head>
+
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>na de deur gegrendeld te hebben, zachter</hi>). Denk an den Sabbath!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>opstaand</hi>). Ja! &apos;k Ga me wasschen! (<hi>blijft bij de linker deur staan</hi>) ... Verleden Vrijdag waren w&apos;r allemaal... (<hi>af</hi>).
+</sp>
+
+
+
+<div2 id=t4>
+<head>VIERDE TOONEEL.</head>
+
+<p>(Buiten telkens stormvlagen).
+
+
+<sp who=grootmoeder>
+<speaker>De Grootmoeder</speaker> <p>(<hi>kindsch lachend</hi>). Ik... licht... uitblazen!...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>snel &apos;t licht iets verder verzettend</hi>). Wees niet zoo lastig, moeder!
+</sp>
+
+<sp who=grootmoeder>
+<speaker>De Grootmoeder</speaker> <p>(<hi>heesch</hi>). Buiten wind, hè? Wind, hé?
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Kom &apos;r af!... Kom an tafel!
+</sp>
+
+<sp who=grootmoeder>
+<speaker>De Grootmoeder.</speaker> <p>Ik, nee! Ik... niet... eten... Wind... Luisteren wind... (<hi>langzaam</hi>)... Adonoï!... Adonoï! (<hi>uit te spreken</hi>: <hi>adonòj</hi>).
+</sp>
+
+<p>(<hi>Er wordt op de luiken geklopt. De moeder schrikt, opent de deur</hi>).
+
+
+
+<pb id=pb5 n=5 facs="f:020">
+<div2 id=t5>
+<head>VIJFDE TOONEEL.</head>
+
+<p><hi rend=sc>de vorigen, Batushka.</hi>
+
+<p>(Type Batushka: vuil-bruin gezicht. Dronken-verloopen. Zijn oogen dwalen voortdurend. Zijn handen beven).
+
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>Stormt.
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>angstig</hi>). Ja! ja!
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>Pestweer...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>wantrouwend</hi>). ... Dàt nieuwtje kom je toch niet alleen vertellen&mdash;wat?
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka</speaker> <p>(<hi>tegen den haard op</hi>). Nee, nee. Me pooten warmen&mdash;kom drie wersten ver&mdash;Ivanoff is gestorven. Gauw &apos;r uit. Gestikt. Ben blind van den wind&mdash;(<hi>rondkijkend</hi>)&mdash;Smeerlappen, om zoo huis te houen...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>... En smeerlappen, die &apos;r na stonden te kijken, zonder &apos;n hand uit te steken!...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>... As ik heb staan kijken&mdash;ik&mdash;mag &apos;k lijjen, da&apos;k geen gezond uur meer leef!
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Jawel! Op jouw vloeken schiet &apos;k geen kopeke...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>Leg &apos;k jou &apos;n stroo in den weg? Wat mot jij van mijn?... Op mijn vloeken schiet ze geen kopeke! As &apos;k woekerrente betaal, schiet jij op alles...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Dat lieg je!...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>Lieg &apos;k dat?&mdash;Lieg &apos;k dat?&mdash;Heb je de laatste keer uitstel gegeven...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Uitstel an jou? Zuip niet zooveel wodky! As je nuchter ben zit je te huilen van zorg&mdash;en as je geen stoel van &apos;n tafel ken onderscheijen, as je je vrouw en je kinderen &apos;t huis uitranselt, verwensch je den jood, die jou op bedrog voorschiet! Driemaal&mdash;da&apos;s driemaal te veel&mdash;heb-ie uitstel afgedwongen&mdash;driemaal, je gereedschappen verkoopend ben je harder gaan zuipen. &apos;k Heb meelij met je vrouw&mdash;al gaat ze as &apos;n beest tegen ons te keer. En jij&mdash;jij&mdash;&apos;k zal me mond houen&mdash;maar gezien <hi rend=ex>hèb</hi> &apos;k je gister, <pb id=pb6 n=6 facs="f:021">al smeet je geen ruiten in&mdash;gezien met je lol en je lachen...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>As &apos;k dàar lol in had, zou &apos;k nóú toch niet anloopen? Honderd keer heb &apos;k je goeie raad gegeven&mdash;met of zonder me dronken kop! Waar of niet? Heb ik &apos;r voordeel van as jij je laat doopen? Abramoff is gedoopt&mdash;Pjoepianoff&mdash;Janowsky&mdash;wat win je met &apos;n hard hoofd? Rekenen Abramoff, Pjoepianoff, Janowsky géén rente nou ze christenen zijn? Hoe ken ik je vijand zijn&mdash;enkel omda&apos;k lách? As &apos;k te veel wodky in heb, huil &apos;k genoeg&mdash;laat me is één keer vroolijk wezen, as jullie liever joden blijven met &apos;n stuk-gesmeten zoodje as christenen die d&apos;r plichten waarnemen as ik...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>&apos;t Is goed, hoor. Je wor bedankt. (<hi>Een stilte</hi>). &apos;k Zou me jas niet losknoopen&mdash;we motten eten.
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>Hùhùhù! Hùhùhù! Da&apos;s... Da&apos;s heel verstandig... (<hi>dronken-hardnekkig</hi>)... Christen en joden... Christen en joden... dat mot mekaar... dat mot mekaar... Waar of niet?... Dat mot mekaar...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Ja, dat mot mekaar. As je maar ophoepelt... &apos;k Ruik de wodky van hier...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>De Czaar is &apos;n christen&mdash;en wij zijn christenen&mdash;&apos;n uur lang heb &apos;k vanmorgen in de sneeuw op me knieën gelegen. &apos;n Christen...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>fel</hi>) ... Liever heidin as &apos;n christen die &apos;t boeltje van &apos;n ander, waarvoor je &apos;n menschenleeftijd sappelt en wurmt, vernielt en steelt! As moeder vertellen kon wat ze doorstaan heeft! Nog geen pulletje, nog geen scherf heel gelaten! Christenen! Met z&apos;n hoevelen leien jullie vanmorgen in de sneeuw geknield? Christenen&mdash;béésten...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka</speaker> <p>(<hi>dof-nijdig</hi>). ... Zou jij gister ook niet gezegd hebben, toen d&apos;r nog geen kozakken waren... (<hi>opstaand</hi>) ... Dat zou jij... Dat mot je je éigen zoon onder z&apos;n neus wrijven, hùhùhù!...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Kerel laat me met rust met je kletspraat! Ga je of ga je niet?
+</sp>
+
+<pb id=pb7 n=7 facs="f:022"><sp who=batushka>
+<speaker>Batushka.</speaker> <p>Dag. Dag, zeg &apos;k (<hi>bij de deur</hi>). As je&mdash;as je&mdash;as je nog uitstel wil geven heb je &apos;n vrind&mdash;&apos;n vrind an me&mdash;&apos;n vrind in &apos;t leven is &apos;n witte raaf&mdash;da&apos;s&mdash;da&apos;s &apos;n buitenkans&mdash;voor me vrinden ga ik door &apos;t vuur...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Daar mot je met Karalyk over praten&mdash;as &apos;t van mijn afhangt, zeg &apos;k nee&mdash;beter &apos;n vijand waarvoor je je in acht neemt, waarvan je &apos;t gezicht ken, as &apos;n drinkende witte raaf as jij&mdash;beter de boel op klaarlichten dag &apos;t huis uit gesleept, as &apos;t gestook en gelieg achter je rug...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka</speaker> <p>(<hi>dronken-nijdig</hi>) ... Jij&mdash;jij krijgt &apos;t thuis an je kinderen!
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Goed. Maar dan niet zooas jij. Ik heb geen dochter van achttien, die&mdash;omdat &apos;r vader alles door z&apos;n keelgat jaagt&mdash;geld van &apos;n kerel as Sjewanoff anneemt...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>Dat lieg je, jodin! Dat lieg je! Nièt gelogen is&mdash;nee, bij alle verdoemenis niet!&mdash;dat jouw zoon Petrushka&mdash;gister gedoopt is&mdash;gedoopt om z&apos;n hachie te bergen...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>... Jij serpent, jij hond&mdash;heb je niet genoeg wil van &apos;t opzetten van de boeren, om je schuld an ons kwijt te raken&mdash;mot je me éigen zoon tegen me uitspelen!&mdash;D&apos;r uit! D&apos;r uit!
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>As &apos;t niewaar is&mdash;as-ie gister niet in de kerk is geweest bij de pope&mdash;dan&mdash;dan&mdash;dan zal &apos;k geen stap meer verzetten!
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Geen stap meer verzetten&mdash;dat kèn je toch haast niemeer, dronkelap! Hou voor mijn part wat je van Karalyk heb geleend! Geen voetstap meer in huis! Rekel&mdash;&apos;n kind tegen z&apos;n ouwers!...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>Ik zeg dat Pe..., dat Petrushka&mdash;dat zeg ik bij honderd getuigen&mdash;dat zeg ik...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>stomp op &apos;n stoel smakkend</hi>). ... Ik luister geen woord meer...
+</sp>
+
+<sp who=batushka>
+<speaker>Batushka.</speaker> <p>Dat hoeft niet&mdash;je hoeft niet te luisteren&mdash;ik zeg &apos;t&mdash;en wàt ik zeg is genoeg (<hi>halfwege in de deur</hi>). ... En wat je niet mot vergeten&mdash;<pb id=pb8 n=8 facs="f:023">&apos;n vrind is &apos;n&mdash;is &apos;n... Zeg dat an den jood... (<hi>Af</hi>).
+</sp>
+
+<sp who=grootmoeder>
+<speaker>Grootmoeder</speaker> <p>(<hi>na een lange stilte, door &apos;t gehuil van den wind onderbroken</hi>). ... Wat &apos;n wind, hè?... Adonoj... Adonoj...
+</sp>
+
+<sp who=kasja>
+<speaker>De Meid</speaker> <p>(<hi>sloft binnen met messen, die ze een voor een aan &apos;r voorschoot afveegt en neerlegt&mdash;daarna af</hi>).
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>die onbewogen gezeten heeft, staat moeilijk op, verplaatst het olielichtje waarmee de oude vrouw tracht te spelen, luistert bij &apos;n venster, zit weer bij de tafel&mdash;staat opnieuw driftig op alsof ze &apos;n geluid hoort, luistert aan de buitendeur, grendelt die, keert naar de tafel terug, begint te bidden, breekt in gesnik los</hi>).
+</sp>
+
+
+
+<div2 id=t6>
+<head>ZESDE TOONEEL.</head>
+
+<p><hi rend=sc>De Moeder, Petrushka.</hi>
+
+<p>(<hi>Hij komt door de rechterdeur&mdash;&apos;n bleeke, lange jood met verslordigden ringbaard. Bij de deur staat-ie gejaagd, zonder moed haar te storen. Dit alles rustig te detailleeren. Eindelijk schrikt ze op, kijkt hem doordringend aan</hi>).
+
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Jij!
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Ik&mdash;ik, dat zie je toch...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Waar ben jij... (<hi>zich als met &apos;n ingeving in de rede vallend</hi>)... Die smeerlap&mdash;die Batushka, ben jij tegengekomen&mdash;hier, ergens anders?...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Ja&mdash;ja&mdash;zoo veel&mdash;zoo veel&mdash;wat kijk je? (<hi>heftig</hi>). Wat kijk je moeder! Zie je niet dat &apos;k gek wor? (<hi>zachter</hi>) &apos;r Is niet één reden, niet één me an te kijken...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>zich aan den stoel vast-klampend</hi>). ... Is &apos;t waar, dat jij&mdash;dat jij...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Vraag niet, om Godswil vraag niet&mdash;&apos;k kan nou niks zeggen... (<hi>wil op &apos;n stoel bij de deur gaan zitten</hi>).
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Blijf staan! (<hi>Even denkt ze wild na&mdash;<pb id=pb9 n=9 facs="f:024">strekt den arm naar de deur uit</hi>). Weg voór je vader...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Weg? Wat weg?...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Ben jij naar de gojjiem, de christenen, overgeloopen...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka</speaker> <p>(<hi>zwijgt hijgend</hi>).
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>&apos;t hoofd in de handen aan de tafel</hi>) ... Nou is &apos;t laatste vernield...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka</speaker> <p>(<hi>over z&apos;n moeder aan de tafel neerstortend</hi>) ... Moeder je weet niet hoe &apos;k...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>met eenigszins plechtigen ernst</hi>). Sta op...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Op?
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Sta op.&mdash;Sta op, versta je me?&mdash;(<hi>hij doet het</hi>). ... Voor jou is an &apos;n Sjabbestafel geen plaats meer&mdash;die is enkel voor òns... (<hi>Verwezen schuifelt hij naar de trap bij den haard. Een langere stilte. De wind rumoert heviger</hi>).
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka</speaker> <p>(<hi>vertellend als in ijlhoofdigheid</hi>) ... De steenen die zoo ineens door de ruiten gingen&mdash;&apos;t gejouw en gekrijsch... Toen ben &apos;k weggeslopen&mdash;weggekropen&mdash;op handen en voeten door de sneeuw en de modder&mdash;om kozakken te halen&mdash;om &apos;r uit te zijn&mdash;(<hi>schreeuwerig</hi>)&mdash;&apos;r uit! As je verzuipt, doe je ook nìet anders&mdash;dan &apos;n vasthou grijpen&mdash;&apos;t eerste &apos;t beste om niet te zinken... &apos;k Kon niet blijven! &apos;k Dorst niet blijven! Een tegen honderd&mdash;om as grootvader gemarteld te worden... An jullie heb &apos;k eerst gedacht, toen &apos;k&mdash;toen &apos;k... (<hi>houdt snikkend op. Een stilte&mdash;zij antwoordt niet, als-ie opkijkt</hi>)... Achter de stal zagen ze me kruipen, holden ze me na&mdash;&apos;k heb &apos;t gestamp van d&apos;r schoenen nog in me hersens... Met z&apos;n allen zaten ze me op me hielen&mdash;smeten met drek&mdash;wat geen pijn doet&mdash;en met steenen! Twee gaten kreeg &apos;k in me kop&mdash;me longen braakte &apos;k uit, om voor te blijven, niet in d&apos;r klauwen te vallen... &apos;n Wolf met de honden achter &apos;m kan niet harder, as ik, as ik... Een oogenblik ben &apos;k gestruikeld, raakte me &apos;n knuppel&mdash;toen weer op&mdash;weer vort&mdash;weer stikkend, stikkend&mdash;O, o, ik stik <pb id=pb10 n=10 facs="f:025">nog... (<hi>staat hijgend op, zet de wijnflesch aan de lippen, steekt haar de hand toe&mdash;zij beweegt niet</hi>)... Waarom doe je dat, moeder?&mdash;Moeder! (<hi>keert naar de trap terug</hi>) ... Ik dorst niet anders&mdash;&apos;k ben altijd bang geweest&mdash;dat weet jij toch... Tot bij de stad hebben ze me as &apos;n stuk wild opgejaagd&mdash;een die me tegenkwam, stak z&apos;n voet uit om me te laten vallen&mdash;&apos;k heb &apos;m met me vuist &apos;t bloed uit z&apos;n oogen geslagen... Zoo geen mensch meer&mdash;<hi rend=ex>zijn</hi> wij joden, wij gevloekte joden, <hi rend=ex>zijn</hi> wij menschen,&mdash;ben &apos;k in de stad tegen den grond gesmakt, afgebeuld, kapot... Toen, voorzichtig, bang gezien te worden, heb &apos;k hulp gehaald&mdash;en toen&mdash;toen&mdash;heb &apos;k &apos;n pope gesmeekt&mdash;in &apos;n kerk&mdash;in &apos;n kerk, waar ze zongen, hahaha, zingen!&mdash;waar de steenen van &apos;t doopvont door m&apos;n bloed en &apos;t drek van m&apos;n kleeren, bevuild werden... (<hi>Een stilte</hi>). Zeg je niks?... Blijft de Eeuwige, die ons láát folteren, geen Eeuwige of je &apos;m hier aanroept of daar? Is &apos;r &apos;n Eeuwige, as ze je na &apos;t leven staan, de moordenaars?... Zeg dan wat! Mijn hersens kloppen en jij zit of &apos;t je niet angaat!...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Maak je weg voor je vader komt... Ik krepeer liever dan &apos;m dàt zeggen&mdash;dàt. Voor ons&mdash;voor ons hoef je niemeer bang te zijn. De kozakken zijn &apos;r. Enkel &apos;t restantje leven hebben we nog te geven&mdash;&apos;t goed is gestolen&mdash;en jij ben in de ellende mee ondergegaan...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Ik ben ziek&mdash;ben gewond...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Daar heb je nòu ànderen voor.
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Motten we zoo van mekaar? Zonder een woord?
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Voor jóú &apos;n woord? Nee.
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Moeder, zoo ben je toch nooit geweest...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>En jij nooit zoo (<hi>houdt zich in</hi>)... Wat doet &apos;t &apos;r toe! Razen en schimpen is nutteloos (<hi>ontgrendelt de deur</hi>). Haast je wat. Dan zal &apos;k probeeren &apos;m tot z&apos;n laatste uur wijs te maken, dat ze je vermoord hebben... Hádden ze &apos;t...
+</sp>
+
+<pb id=pb11 n=11 facs="f:026"><sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Enkel je hand...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Nee.
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Dan neem &apos;k &apos;r...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>heftig</hi>). Nee. Nee.
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Moeder, je weet niet wat je doet... (<hi>strekt nog eens de hand uit</hi>).
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Nee.
+</sp>
+
+
+
+<div2 id=t7>
+<head>ZEVENDE TOONEEL.</head>
+
+<p><hi rend=sc>De vorigen, Karalyk.</hi>
+
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>(<hi>In Sabbathkleeren. blijft bij de deur verbluft staan</hi>). Ben jij &apos;t? Ben jij &apos;t? (<hi>snelt op hem toe, kust hem</hi>). M&apos;n jongen&mdash;m&apos;n jongen! Nou is alles weer goed! Laten ze nou de laatste brokken ook nog maar wegsleepen! Ja, lach maar groomoe&mdash;hij is d&apos;r weer, hahaha! Ga zitten, vertel! Vertel dan! &apos;k Dacht dat de schoften... Daar mot &apos;k zelf bij gaan zitten&mdash;&apos;t slaat me in me beenen, hahaha! Goeie God, wat &apos;n gebenchte Sjabbes... Waar zat je&mdash;waar was je&mdash;wat voerde je uit...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Hij heeft de kozakken gehaald.
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>verheugd</hi>). Jij?
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka</speaker> <p>(<hi>schuw</hi>). Ik...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>tot de moeder</hi>). Zie je? Wat zei &apos;k? Wie had &apos;t bij &apos;t rechte eind? En&mdash;en hebben ze je nièt gesnapt?
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Enkel wat steenen...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Toch niet erg?&mdash;Toch niet erg?...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Erg?... Nee... Nee...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Je ziet zoo wit...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka<corr>.</corr></speaker> <p>(<hi>aarzelend</hi>). ... Dat rennen en rennen&mdash;en de heele nacht wakker...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk<corr>.</corr></speaker> <p>... En niet gegeten?...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>... Nee&mdash;geen brok van af gister...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Hahaha! Hahaha, da&apos;s bijzaak&mdash;&apos;k ruik de Sjabbessoep van hier! Opdoen moeder! Opdoen! (<hi>opstaand <pb id=pb12 n=12 facs="f:027">en den zoon omhelzend</hi>). Dat God je zegene&mdash;dat God je zegene, jongen... Wat is &apos;r?...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>... Je drukt met je handen, waar d&apos;r steenen builen hebben geslagen!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Builen?... De bloedhonden!... Laat kijken...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>Nee vader. &apos;k Wou alleen liever nièt mee-eten, wat rusten...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Rusten met &apos;n leege maag? Geen denken an!
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>&apos;k Ben te moe om uit me oogen te kijken...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Dan zit je tòch mee an&mdash;dan zul je opknappen door ònze vreugde&mdash;wat, moeder?...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>... Ik kan niet&mdash;kan niet, vader...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Je kàn wel, Petrushka. Je kan wèl. Na &apos;t eten kruip je na boven... (<hi>luid</hi>) Kasja! Kasja! (<hi>de meid komt in rechterdeur</hi>). ... Opdoen, na &apos;t gebed. An tafel, moeder!
+</sp>
+
+<sp who=grootmoeder>
+<speaker>Grootmoeder</speaker> <p>(<hi>dwingerig</hi>)<corr>.</corr> ... Nee... Nee... Niet eten... Hier lekker warm... Hier eten... Hiér...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Jij heb niet geslapen, jongen&mdash;wij ook niet... Je moeder lee de heele nacht te huilen, niewaar? (<hi>de moeder knikt, bijna niet luisterend</hi>) ... En ik? Bij &apos;t minste gerucht ben &apos;k opgestaan, zes, zeven maal, denkend dat je &apos;r was... Wat zoo&apos;n nacht duurt, duurt!... Gisteravond nog vóór &apos;t schemerde waren de kozakken &apos;r... Hoe ben je &apos;r doorgekommen?... Hoe heb je &apos;t zoo vlug...?
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka.</speaker> <p>... Hoe? &apos;k Weet &apos;t niemeer... As &apos;n dier ben &apos;k gejaagd... Vader ik kàn niet mee anzitten&mdash;ik ben ziek van moeheid... Ik kàn niet...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>verwonderd</hi>). ... Zijn je moeder en ik niet afgebeuld&mdash;schuiven we niet as koningen bij, dankbaar as we zijn dat God ons in gezondheid an de Sjabbestafel, na zóó&apos;n dag en nacht van gruwel en ellende, vereenigt? De ouwe Sally is vermoord&mdash;niet om na te vertellen hoe&mdash;en de dochter van Iwan, dat kind van nog geen zestien, nog niet volwassen, hebben <pb id=pb13 n=13 facs="f:028">ze onder de oogen van &apos;r vader en moeder, de kleeren van &apos;t lichaam gerukt&mdash;en&mdash;en... Dieren zijn niet zoo duivelsch as die door God gevloekten! En te denken dat de huizen van Abramoff, Pjoepianoff, Janowsky&mdash;omdat ze zich hebben laten doopen, dóópen!&mdash;voor wat?... Uit overtuiging!&mdash;te denken dat diè gespaard zijn gebleven!&mdash;te denken...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>tot de grootmoeder, die het lichtje in de handen genomen heeft</hi>) ... Moeder doe niet as &apos;n kind! Zet &apos;t neer!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>... Neerzetten, moeder! Da&apos;s geen speelgoed! (<hi>De ouwe vrouw zet het neer</hi>) ... Nee waarachtig geen speelgoed!... <hi rend=ex>Zijn</hi> jaartijd! De jaartijd van je grootvader&mdash;&apos;t lichtje om òns te helpen onthouen, òns, of wij &apos;t ooit zullen vergeten, hoe ze &apos;m voor drie jaar geslàcht hebben! Straks, toen &apos;k met Petroff zat, tobde &apos;k &apos;r over, dat we &apos;t volgend jaar misschien twéé lichtjes zouen moeten branden&mdash;een voor hem&mdash;een voor jou ... Eeuwige, Almachtige, wees gedankt...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>hem het brood en het zout overreikend</hi>) ... Laten we brooge maken&mdash;de meid wacht...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Nee. De herinnering aan vader gaat voor... (<hi>in extase biddend</hi>) ... Eeuwige, die hem tot u genomen, uit z&apos;n zorgen en lijden&mdash;die &apos;t wilde, dat hij u niet aanriep, omdat z&apos;n mishandelde tong ùw naam niet meer zeggen kon&mdash;Adonoj, onze God, wees geprezen tot in alle Eeuwigheid! Gij hebt gesproken, Almachtige: &bdquo;Laat ons den mensch maken naar ons beeld, naar onze gelijkenis: Dat zij heerschen over de visschen der zee, over het gevogelte des hemels, over de geheele aarde en over al het kruipend gedierte, dat op de aarde kruipt...&rdquo; Gij hebt ons volk gezegend en gezegd: &bdquo;Weest vruchtbaar, vermenigvuldigt, vervult de aarde, bedwingt haar, heerscht over de visschen der zee, over het gevogelte des hemels, over het gedierte dat op aarde kruipt!&rdquo;... Maar de menschen, o Eeuwige onze God, luìsteren niet naar uw stem, heerschen niet over de visschen, de vogels, het kruipend gedierte&mdash;<pb id=pb14 n=14 facs="f:029">zij moorden en vervolgen en liegen en bedriegen in uw oneindigen naam! Adonoj, onze God, wij geven ons aan uwe wijsheid over&mdash;wij bidden voor de dierbare dooden en danken u voor de zegening, dat gij den zoon terug hebt geleid, dien we met heete tranen beweenden. Omein wie omein!
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>zacht</hi>) ... Omein... (<hi>Een stilte. De meid draagt de soep binnen. De wind juilt om het huis. De moeder vult een bord voor de grootmoeder, brengt haar dat. Terwijl snijdt Karalyk het brood, doopt het in &apos;t zout</hi>).
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Maak brooge, Petrushka...
+</sp>
+
+<sp who=petrushka>
+<speaker><corr sic=Petruska>Petrushka</corr>.</speaker> <p>Ik?... Mot ik...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>moeilijk-ingehouden</hi>). Nee! Nee! Hij niet!... Jij vanavond...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Ik begrijp jou niet.&mdash;Ik begrijp jullie geen van twee... (<hi>kijkt hen wantrouwend aan</hi>) ... Jij doet zoo vreemd... Heeft Petrushka niet van z&apos;n kinderjaren brooge gemaakt?
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Dat is zoo&mdash;dat&mdash;dat spreek &apos;k niet tegen.&mdash;Maar&mdash;maar&mdash;(<hi>zich bedwingend</hi>) ... Petrushka, maak brooge...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka</speaker> <p>(<hi>moeilijk</hi>) ... Boroeg Atto Adonoj... (<hi>smakt in den stoel terug</hi>). Ik kan niet&mdash;dat zie je toch wel&mdash;maak me niet krankzinniger dan ik &apos;t al ben...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Jij kan niet...?
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder.</speaker> <p>Je merkt toch dat-ie overstuur is&mdash;ik zei je straks...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Stil&mdash;geen gepraat onder &apos;t gebed... (<hi>plechtig</hi>) ... Boroeg Atto Adonoj Elloeheinoe... (<hi>Een heftig geklop op de luiken. Zij kijken mekaar verschrikt aan. Er wordt sterker geklopt. De meid komt uit het kookhok, rechts</hi>).
+</sp>
+
+<sp who=kasja>
+<speaker>De Meid.</speaker> <p>Zal ik hooren? (<hi>Karalyk knikt</hi>).&mdash;(<hi>Zij gaat op de achterbuitendeur toe<corr>,</corr> roept</hi>) .... Wie daar?... (onverstaanbaar antwoord) ... Wie daar?... (<hi>hetzelfde</hi>). ... De kozakken! (<hi>opent de deur</hi>).
+</sp>
+
+<sp who=hoofdman>
+<speaker>De Hoofdman.</speaker> <p>De jood Karalyk?
+</sp>
+
+<pb id=pb15 n=15 facs="f:030"><sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Die ben ik.
+</sp>
+
+<sp who=hoofdman>
+<speaker>De Hoofdman.</speaker> <p>Je papieren!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Papieren? Wat voor papieren?
+</sp>
+
+<sp who=hoofdman>
+<speaker>De Hoofdman.</speaker> <p>Dat je hiér wonen mag...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Ik&mdash;papieren&mdash;ik die van m&apos;n kinderjaren?...
+</sp>
+
+<sp who=hoofdman>
+<speaker>De Hoofdman.</speaker> <p>Geen praatjes, geen gezwets, jood&mdash;we hebben andere korvee!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>&apos;k Begrijp &apos;r niets van. As je zegt wat je wil...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>Wil je &apos;t uitzettingsbevel lezen&mdash;je staat als vreemdeling ingeschreven, Karalyk...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Ik vreemdeling&mdash;ik die meer dan &apos;n halve eeuw...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman</speaker> <p>(<hi>nijdig</hi>). Laat me uitspreken! Val je soort in de rede! Wat wou jij anders dan vreemdeling zijn? Heb je ooit verlof gevraagd hier te wonen? Na de herrie, de relletjes van gister en eergister, waarin jij betrokken ben geweest, is &apos;r vastgesteld dat je alles heb behalve papieren. Heb je papieren, ja of nee?
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>dof</hi>). Nee&mdash;wèl van &apos;t geld dat ze schuldig zijn...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>Die gaan me niet an.&mdash;Verkassen!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Verkassen?&mdash;Motten wij... Wanneer?
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>Op slag.&mdash;Dadelijk.
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Op slag&mdash;midden in &apos;t Sjabbesmaal?&mdash;Mòt dat?
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>Anders zou &apos;k &apos;t niet zeggen, hè?&mdash;Vooruit!&mdash;Ingerukt!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>dof</hi>). Mag &apos;k pakken wat ze bij de verwoesting hebben gelaten?
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>Je pakt niets! Voor &apos;n verhuisoptocht heb &apos;k geen opdracht.&mdash;Alleen jij en je vrouw!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Goed, goed (<hi>tot Petrushka</hi>). Kom jongen. We zijn de eersten niet, zullen de laatsten niet zijn&mdash;we blijven Godlof bij mekaar...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>&apos;k Zeg toch weergaasch duidelijk: alleen jij en je vrouw!
+</sp>
+
+<pb id=pb16 n=16 facs="f:031"><sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Ja, ja. Maar m&apos;n zoon ook. We zijn àllemaal zonder papieren, allemaal...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman</speaker> <p>(<hi>kort</hi>). Nee! Je zoon hoeft niet als-ie niet wìl&mdash;staat op de lijst van de gedoopten, sinds gister.
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Ben&mdash;jij&mdash;gister&mdash;ge&mdash;gedoopt? (<hi>Harde stilte</hi>). Ben jij gister... (<hi>vliegt op de tafel toe, grijpt &apos;n mes</hi>) ... Ben jij...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman</speaker> <p>(<hi>hem met geweld tegenhoudend</hi>) ... Is &apos;t genoeg? Sta ik hier als kwajongen? Vooruit&mdash;of mot de knoet meepraten?
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>tot de vrouw</hi>) ... Wist jij dat? Mocht-ie daarom geen brooge... En voor dien schoft heb jij &apos;n bord an de Sjabbestafel gezet?...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman</speaker> <p>(<hi>tot de kozakken</hi>). Angepakt. Duurt te lang.
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Bij de herinnering an je eigen ouwers&mdash;laat me nog even wat zeggen an me&mdash;an me zóón...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>As je &apos;t kort maakt&mdash;en geen nieuwe kunsten!
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>terwijl hij spreekt, wijkt de Hoofdman, half angstig, half geparalyseerd door de woede van den grijsaard. De meid en de kozakken staan in de deuropening</hi>) ... Wou &apos;k zeggen&mdash;wou &apos;k zeggen&mdash;Petrushka&mdash;dat jij&mdash;dat jij&mdash;(<hi>barst in waanzinnige woede los</hi>) ... Hadden ze je gister liever gesteenigd, gesteenigd dat je hersens door de honden waren gevreten! Hadden ze je tong uìt-gerukt&mdash;de tong waarmee je ònzen God heb gelasterd!&mdash;Was je bij je geboorte gestikt&mdash;aan je moeder d&apos;r borst doodgebleven, toen je van haar je eerste voedsel nam!&mdash;jij!&mdash;jij!&mdash;jij!&mdash;die daar straks &apos;t Boroeg Atto Adonoj in dòrst te zetten!... (<hi>snikt even hijgend&mdash;weert den hoofdman, die een gebaar maakt af, grijpt een glas van tafel, verbrijzelt het tegen den grond&mdash;dan met herstijgende drift</hi>:) ... Zoo waar als dit glas nooit meer heel wordt, de scherven mekaar niet terugvinden&mdash;vloek ik jou, Petrushka, trap ik je van me af&mdash;walg ik van je&mdash;spuw ik naar je (<hi>spuwt onmachtig</hi>)<pb id=pb17 n=17 facs="f:032">&mdash;jij grafschenner&mdash;jij die sjaggert met je God&mdash;jij erger onteerd dan de dochter van Iwan&mdash;jij voor wie geen kind ooit &apos;n lichie zal branden&mdash;jij laffe, laffe ellendeling... (<hi>stikkend in zijn verwenschingen stort hij neer</hi>).
+</sp>
+
+<sp who=hoofdman>
+<speaker>De Hoofdman</speaker> <p>(<hi>met ontzag, helpend hem op te beuren</hi>). Genoeg, genoeg...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk</speaker> <p>(<hi>hijgend</hi>). Ja genoeg&mdash;we gaan&mdash;we gaan&mdash;we gaan... Da&apos;s &apos;t tweede glas dat &apos;k stuk heb gesmeten... (<hi>vreemd-glimlachend</hi>)... &apos;t tweede...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>tot Hoofdman</hi>). Waar moeten we heen?
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>Weet &apos;k niet...
+</sp>
+
+<sp who=moeder>
+<speaker>De Moeder</speaker> <p>(<hi>de grootmoeder bedoelend</hi>) ... En zij?&mdash;Mot ze verhongeren?...
+</sp>
+
+<sp who=hoofdman>
+<speaker>Hoofdman.</speaker> <p>Je zoon blijft. Vooruit! &apos;t Is kort dag...
+</sp>
+
+<sp who=karalyk>
+<speaker>Karalyk.</speaker> <p>Kort dag... kort dag... (<hi>Zij gaan heen in den sneeuwstorm. Angstig schiet Petrushka op de deur toe, grendelt die, luistert bij een luik</hi>).
+</sp>
+
+<sp who=grootmoeder>
+<speaker>Grootmoeder</speaker> <p>(<hi>dwaas van glimlach</hi>). Lichie van mijn&mdash;van mijn...
+</sp>
+
+<sp who=petrushka>
+<speaker>Petrushka</speaker> <p>(<hi>woest</hi>). Suscht!... Hou je mond! Hou je mond! (<hi>strompelt naar de bank</hi>).
+</sp>
+
+<sp who=grootmoeder>
+<speaker>Grootmoeder</speaker> <p>(<hi>de vingers in het knetterend-doovend vlammetje</hi>)... Lìchie... Hèhèhè!... Adonoj... Adonoj...
+</sp>
+
+
+<p rend=dateline>April 1893.
+
+
+<p rend=center>(<hi>Doek</hi>).
+
+
+
+</div1>
+</body>
+<back id=backmatter>
+
+
+<divGen id=toc type=toc>
+
+<divGen type=Colophon>
+
+
+</back>
+</text>
+</TEI.2>
+
+<!--
+
+CHECKLIST (X = done; / = not applicable)
+
+Initial cleanup
+
+[ ] Check all pb-tags, and join lines
+[ ] Move all footnotes in-line
+[ ] Tag headers
+[ ] Fix all [** Proofer comments]
+[ ] Start all paragraphs with the p-tag
+[ ] Change b, sc, g tags to hi tags with correct attributes.
+[ ] Change tb tags to milestone tags.
+[ ] Fix multiple spaces in a row
+[ ] Verify all paragraphs start with p-tag, also those starting with a tag.
+
+TEI header
+
+[ ] Add TEI header.
+[ ] Fill in details in TEI header
+[ ] Verify Author dates and add to TEI header.
+[ ] Document on-line scan sources.
+[ ] Fill in description in noteStmt.
+[ ] Fill in keywords / Subjects
+[ ] Add auto-generated colophon divGen tag.
+[ ] Fill in reference to LOC record (https://catalog.loc.gov/).
+[ ] Fill in reference to OpenLibrary record (https://openlibrary.org).
+[ ] Fill in reference to WorldCat record (source and work) (https://www.worldcat.org).
+[ ] Generate unique epub-id. (https://www.guidgenerator.com/)
+
+Verse
+
+[ ] Tag all verse.
+[ ] Apply proper indentation: rend="indent(2)"
+
+Lists
+
+[ ] Tag all lists.
+
+Tables
+
+[ ] Format tables
+[ ] Apply ditto-tags.
+
+Table of Contents
+
+[ ] Format table(s) of contents
+[ ] Link entries in table of contents
+[ ] Verify each link
+[ ] Compare with generated table of contents
+
+Images
+
+[ ] Include all illustrations
+[ ] Verify positioning of images makes sense.
+
+Spelling
+
+[ ] Verify generated wordlist
+[ ] Tag language usage
+
+Tools
+
+[ ] Verify Gutcheck
+[ ] Verify jeebees
+
+Miscellany
+
+[ ] Check for [Greek: ...] notation
+[ ] Curlify quotes
+[ ] Check for wrong quotes
+[ ] Disambiguate single quotes, apostrophes, and primes.
+[ ] Unwrap lines
+[ ] Check for lines not unwrapped
+[ ] Verify sequence of page-numbers
+[ ] Handle fractions, such as 1/2.
+[ ] Converted all fragments in uppercase to mixed case.
+
+Text Version
+
+[ ] Remove FIGURE notations
+[ ] Verify empty lines between chapter headings
+[ ] Verify empty lines around poetry and lists
+[ ] Center poetry
+[ ] Format title page
+[ ] Remove Ads
+[ ] Format Tables
+[ ] Verify Greek and other transliterations
+
+Additional Checks and Edits (Add as needed for a specific book)
+
+[ ] ....
+
+Posting
+
+[ ] Make sure dp-post@pgdp.net is cc-ed on upload
+
+Post-Posting
+
+[ ] Update status to 1.0 (i.e. Posted).
+[ ] Include PG number and posting date in metadata
+
+-->
